@@ -36,7 +36,7 @@ def returnlistusers():
     opcmenus = strbld.StringBuilder()
     position = 1
     opcmenus.Append("[*] Lista de Movimientos De Usuarios [*]\n")
-    opcmenus.Append("[ID]\t[Nombre]\t[Apellido]\t[Producto]\t[Valor Compra]\t[Valor Descuento]\n")
+    opcmenus.Append("[ID]\t[Nombre]\t[Producto]\t[Valor Compra]\t[Valor Descuento]\t[Cantidad Comprada]\n")
     for data in db.arrayMovementsUser():
         opcmenus.Append("\n")
         #opcmenus.Append("["+str(position)+"]\t")

@@ -20,12 +20,13 @@ clear = lambda: os.system('cls')
 #-----------------------------------------#
 
 # ------------------------- MENU DE CONSOLA ------------------------#
-active = True
+
 
 #PERSON
 nameperson = ""
 
 #ACTIVADORES DE MENU
+active = True
 activeMenu1 = True
 activeMenu2 = True
 activeMenu3 = True
